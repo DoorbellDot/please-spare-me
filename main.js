@@ -594,7 +594,7 @@ Game.Launch=function()
 {
 	Game.version=VERSION;
 	Game.beta=BETA;
-	if (window.location.href.indexOf('/beta')>-1) Game.beta=1;
+	if (window.location.href.indexOf('https://doorbelldot.github.io/please-spare-me/beta')>-1) Game.beta=1;
 	Game.https=(location.protocol!='https:')?false:true;
 	Game.mobile=0;
 	Game.touchEvents=0;
